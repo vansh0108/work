@@ -1,0 +1,100 @@
+<!Doctype html>
+    <head>
+    <title>Personal Resume Page</title>
+ <!-- For CSS -->
+ <link rel="stylesheet" href="PRP.css">
+ <!-- For icons -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+ <!-- For Javascript -->
+ <script src="PRP.js"></script>
+
+    </head>
+    <body id="bodytag">
+        <div class="container">
+            <div class="side" id ="left_side">
+                <img id="image" src="img.jpg" width="135px" alt="pic" height="145px">
+             <h2 id="name">Vansh Sarna</h2>
+             <p id ="work">Web Developer</p>
+             <div id="botbord"></div>
+
+             <h2 class="conedu">Contact Info</h2>
+             <i id="phone" class="fa-solid fa-phone"> +91 9034794119</i>
+             <i id="mail" class="fa-solid fa-envelope"> vanshsarna10@gmail.com</i>
+             <i id="ins" class="fa-brands fa-instagram"> @vanshsarna108</i>
+             <i id="loc" class="fa-solid fa-location-dot"> Ambala,Haryana,India</i>
+
+             <h2 class="conedu">Education</h2>
+            <ul class ="list">
+                <li class="year">2023-2027</li>
+                <li class="stu">Bachelor in Computer Science</li>
+                <li class="uni">Chitkara University</li>  
+            </ul>
+            <ul class ="list">
+            <li class="year">2008-2023</li>
+            <li class="stu">HSC/Intermediate</li>
+            <li class="uni">PKRJPS</li>
+            </ul>
+
+            <h2 class="conedu">Languages</h2>
+            <ul class ="list">
+                <li>
+                    <span class="lang">English</span>
+                    <p id ="percenteng"></p>
+                </li>
+                <li>
+                    <span class="lang">Hindi</span>
+                    <p id ="percenthin"></p>
+                </li>   
+            </ul>
+            </div>
+
+            <div class="side" id ="right_side">
+                <b><H2 id="profile">PROFILE</H2></b>
+                <p class="para">I am someone who thrives on a diverse set of interests and activities.
+                One of my greatest passions is watching movies,as I find joy and inspiration
+                in the stories and emotions they convey.I relish the opportunity to explore
+                new places, cultures, and cuisines, making travel an integral part of my life.
+                Coffee is a daily source of comfort and a companion during my adventures.</p>
+                <p class="para">Beyond my love for entertainment and exploration, I have a deep-seated fascination with the
+                finance sector. I enjoy exploring the details and complexities of financial markets, investments,
+                and economic trends, constantly seeking to expand my knowledge in this field. In addition
+                to my passion for finance, I possess the technical skills of web development, allowing me
+                to bring creative ideas to life in the digital realm. </p>
+                <b><H2 id="profile">CERTIFICATION</H2></b>
+
+                <b><p class="cer">Full Stack Development</p></b>
+                <p class="tex1">Completed the Full Stack Web Developmet Course, For certificate <a class="link" onclick="alert1()" target="_blank" href="Full-Stack-Development-Free-Certificate-pdf.jpg">ClickHere</a></p>
+
+                <b><p class="cer">MS Office Specialist</p></b>
+                <p class="tex1">Completed MS Office Specialist course, For certificate <a class="link" onclick="alert1()" target="_blank" href="MS certificate.jpg">ClickHere</a></p>
+
+                <b><p class="cer">Python Development</p></b>
+                <p class="tex1">Completed Python Competency Development Program, For certificate <a class="link" onclick="alert1()" target="_blank" href="Python-Certification.jpg">ClickHere</a></p>
+
+                <b><H2 id="profile">PROFESSIONAL SKILLS</H2></b>
+                <ul class ="list">
+                    <li>
+                    <span class="pfs">HTML</span>
+                    <p id="percenthtml"></p>
+                    <span class="pfs">CSS</span>
+                    <p id="percentcss"></p>
+                    <span class="pfs">MS Office</span>
+                    <p id="percentms"></p>
+                    <span class="pfs">Python</span>
+                    <p id="percentpython"></p>
+                    </li>
+                </ul>
+                <b><H2 id="profile">INTEREST</H2></b>
+                <ul class="list">
+                    <li class="inlineint"><i class="fa-solid fa-road" id="interest"></i><b class="interestword">Travelling</b></li>
+                    <li class="inlineint"><i class="fa-solid fa-gamepad" id="interest"></i><b class="interestword">Gaming</b></li>
+                    <li class="inlineint"><i class="fa-solid fa-book" id="interest"></i><b class="interestword">Reading</b></li>  
+                </ul>
+
+                <button type="button" id="printb" onclick="printPage()"><i id="printic" class="fa-solid fa-print"></i>Print Page</button>
+            
+            </div>
+            
+        </div>
+    </body>
+</html>
